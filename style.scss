@@ -178,7 +178,7 @@ $title: 'Mont-Heavy';
     &__list-wrapper {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: flex-start;
     }
     &__content {
       ul {
@@ -213,10 +213,12 @@ $title: 'Mont-Heavy';
       margin-bottom: 20px;
       font-family: $title;
       font-size: 26px;
+      z-index: 1;
     }
     &__desc {
-      font-size: 16px;
+      font-size: 14px;
       line-height: 1.3;
+      z-index: 1;
     }
     &__packshot {
       width: 40%;
